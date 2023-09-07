@@ -2,7 +2,7 @@ from pyrogram import Client, filters,enums
 from pyrogram.types import ChatPermissions
 from . import congif
 from .database import connect
-app = Client("my_bot", api_id=27376757, api_hash="27d4e363b3524401b62e86f1cc16c096", bot_token="6038826331:AAEbTWf0thTYGF2yZFEG6mJuzkdLW8YS5_M")
+app = Client("my_bot", api_id=27376757, api_hash="", bot_token="")
 
 
 #left message 
