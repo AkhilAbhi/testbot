@@ -3,7 +3,7 @@ from modules import chek,congif
 import logging
 logging.basicConfig(level=logging.INFO)
 # Replace 'YOUR_API_ID' and 'YOUR_API_HASH' with your actual values
-app = Client("my_bot", api_id=27376757, api_hash="27d4e363b3524401b62e86f1cc16c096", bot_token="6038826331:AAEbTWf0thTYGF2yZFEG6mJuzkdLW8YS5_M")
+app = Client("my_bot", api_id=27376757, api_hash="", bot_token="")
 app.set_parse_mode(enums.ParseMode.HTML)
 @app.on_message(filters.command("start"))
 async def start(client, message):
